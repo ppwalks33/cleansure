@@ -1,0 +1,1 @@
+<?php  echo form_dropdown('sites', $sites ,'', "class='".$class."'", 'site_name')."\n";  ?>

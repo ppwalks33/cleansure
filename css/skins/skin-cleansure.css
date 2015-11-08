@@ -1,0 +1,461 @@
+/*
+ * Skin: Cleansure skin
+ * -----------
+ */
+ 
+body { /* background-color:#f3f3f4; #676a6c */ }  
+
+ 
+.skin-green .main-header .navbar {
+  background-color: #f3f3f4;
+}
+.skin-green .main-header .navbar .nav > li > a {
+  color: #999c9e;
+}
+
+.skin-green .main-header .navbar .nav > li > a:hover,
+.skin-green .main-header .navbar .nav > li > a:active,
+.skin-green .main-header .navbar .nav > li > a:focus,
+.skin-green .main-header .navbar .nav .open > a,
+.skin-green .main-header .navbar .nav .open > a:hover,
+.skin-green .main-header .navbar .nav .open > a:focus {
+
+  background: rgba(0, 0, 0, 0.1);
+  background-color:transparent !important;
+ /* color: #f6f6f6; */
+ 
+}
+.skin-green .main-header .navbar .sidebar-toggle {
+  color: #ffffff;
+}
+.skin-green .main-header .navbar .sidebar-toggle:hover {
+  color: #f6f6f6;
+    background: rgba(0, 0, 0, 0.1); 
+}
+.skin-green .main-header .navbar .sidebar-toggle {
+  color: #fff;
+  background-color: #008d4c; 
+}
+.skin-green .main-header .navbar .sidebar-toggle:hover {
+  background-color: #008d4c; 
+}
+@media (max-width: 767px) {
+  .skin-green .main-header .navbar .dropdown-menu li.divider {
+   background-color: rgba(255, 255, 255, 0.1); 
+  }
+  .skin-green .main-header .navbar .dropdown-menu li a {
+    color: #fff;
+  }
+  .skin-green .main-header .navbar .dropdown-menu li a:hover {
+    background: #008d4c; 
+  }
+}
+.skin-green .main-header .logo {
+  /* background-color: #f3f3f4; */
+  background-color: #222d32;
+  color: #ffffff;
+ /* border-bottom: 0px solid transparent; */
+  border-bottom: 1px solid #222d32 !important;
+}
+}
+.skin-green .main-header .logo:hover {
+  background-color: #008749; 
+}
+.skin-green .main-header li.user-header {
+  background-color: #00a65a; 
+}
+.skin-green .content-header {
+  /* background: transparent; */
+}
+.skin-green .wrapper,
+.skin-green .main-sidebar,
+.skin-green .left-side {
+   background-color: #222d32; 
+}
+.skin-green .user-panel > .info,
+.skin-green .user-panel > .info > a {
+  color: #fff;
+}
+.skin-green .sidebar-menu > li.header {
+  color: #4b646f;
+  background: #1a2226;
+}
+.skin-green .sidebar-menu > li > a {
+  border-left: 3px solid transparent;
+}
+.skin-green .sidebar-menu > li:hover > a,
+.skin-green .sidebar-menu > li.active > a {
+  color: #ffffff;
+  background: #1e282c;
+  border-left-color: #00a65a;
+}
+.skin-green .sidebar-menu > li > .treeview-menu {
+  margin: 0 1px;
+  background: #2c3b41;
+}
+.skin-green .sidebar a {
+  color: #b8c7ce;
+}
+.skin-green .sidebar a:hover {
+  text-decoration: none;
+}
+.skin-green .treeview-menu > li > a {
+  color: #8aa4af;
+}
+.skin-green .treeview-menu > li.active > a,
+.skin-green .treeview-menu > li > a:hover {
+  color: #ffffff;
+}
+.skin-green .sidebar-form {
+  border-radius: 3px;
+  border: 1px solid #374850;
+  margin: 10px 10px;
+}
+.skin-green .sidebar-form input[type="text"],
+.skin-green .sidebar-form .btn {
+  box-shadow: none;
+  background-color: #374850;
+  border: 1px solid transparent;
+  height: 35px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.skin-green .sidebar-form input[type="text"] {
+  color: #666;
+  border-top-left-radius: 2px !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  border-bottom-left-radius: 2px !important;
+}
+.skin-green .sidebar-form input[type="text"]:focus,
+.skin-green .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  background-color: #fff;
+  color: #666;
+}
+.skin-green .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  border-left-color: #fff;
+}
+.skin-green .sidebar-form .btn {
+  color: #999;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 2px !important;
+  border-bottom-right-radius: 2px !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+
+/* GENERAL STYLES */
+
+
+/* Schedule fixes - Fixing Kerian bad html element */
+/* This has to be done as re-writting controller would mean starting from scratch */
+
+.calendar-controls { position:relative; font-size:21px; }
+.month-title { position:relative; margin:0 auto; padding-top:5px;text-align:center; display:block; }
+td.days p { position:relative; margin:5px 0px; } 
+.calendar { position:relative; }
+
+/* a.calendar-overlay-z-num {  z-index: 1000;} */
+
+a.calendar-overlay {
+    /* border: 1px solid #0f0; */
+    left: 0;
+    padding: 3px;
+    position: absolute;
+    top: -5px;
+    width: 100%;
+
+   }
+   
+.badge {
+    background-color: #00a65a;
+    border-color: #008d4c;
+    border-radius: 10px;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    min-width: 10px;
+    padding: 3px 7px;
+    text-align: center;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+
+.today { background:#d2d6de; color:#000000;}
+
+.profile-contact { position:relative; list-style-type:none; margin-left:0; padding-left:0; }
+
+
+/* #3c8dbc */
+
+/* ----------------------------------------------- */
+/* MEDIA QUERIES - DASHBOARD OUTER TEMPLATE LAYOUT */
+/* ----------------------------------------------- */
+
+.topPad { position:relative; margin-top:20px; }
+.bottomPad { position:relative; margin-bottom:20px;}
+.topPadBtn, .topColPad { position:relative; margin-top:10px; }
+.bottomPadBtn { position:relative; margin-bottom:10px;}
+.leftPadBtn { position:relative; margin-left:10px; }
+.rightPadBtn { position:relative; margin-right:10px;}
+.rightPadIcon { position:relative; margin-right:5px;}
+.blockBtn { position:relative; margin-bottom:8px; display:block }
+.hideIcon { position:relative; display:none; }
+.actionBtn { position:relative; display:block !important; }
+.hide { position:relative; display:none; }
+.blockItem { position:relative; display:block; }
+
+.topBrowserLine { position:relative; width:100%; height:1px; border-top:3px solid #3c8dbc; }
+.white-bg { background-color:#ffffff; }
+.white-bg-border { background-color:#ffffff; border-bottom:1px solid #e7eaec; }
+.border-bottom { border-bottom: 1px solid #e7eaec !important;}
+
+.main-sidebar, .left-side { padding-top: 55px; }
+
+.welcome-message { position:relative; margin-top:15px; margin-right:5px; display:inline-block; }
+
+.breadcrumb > li + li::before {
+    color: #ccc;
+    content: "/ " !important;
+    padding: 0 5px;
+}
+
+
+.table-responsive {
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 100%;
+}
+
+.noContainerPad { padding-left:0; padding-right:0; }
+.noLeftPad { padding-left:0; padding-right:8px; }
+.noRightPad { padding-left:8px; padding-right:0; }
+
+/* Modal Box */
+
+.modal-dialog { position: relative; margin: 10px; width: auto; }
+.modal-body .table-responsive { position:relative; margin-bottom:0px; }
+.modal-footer { margin-top:0px; }
+.modal-header { padding:15px 15px 10px 15px; } 
+
+/* Trash Bin */
+.trashContainer { position:relative; }
+.iconCounter { position: absolute;  top: -12px; left: 17px; padding: 2px 3px; font-size: 9px; line-height: 0.9; text-align: center; }
+.trashBtn { font-size:28px; }
+
+/* Mail app  */
+.has-feedback .form-control-feedback {
+    display: block;
+    height: 34px;
+    line-height: 34px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: -2px;
+    width: 34px;
+}
+
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+	background: #1e282c;
+    background-color: #1e282c !important;
+    border-left-color: #00a65a;
+    color: #ffffff !important;
+    font-weight:100;
+}
+
+.mailMenu > li > a:hover, .mailMenu > li > a:focus { 
+	
+	 background: #1e282c;
+    background-color: #1e282c !important;
+    border-left-color: #00a65a;
+    color: #ffffff !important;
+    
+   }
+   
+  
+.box .nav-stacked > li {
+    border-bottom: none;
+    margin: 0;
+}   
+
+.tickboxMail { position:relative; width:50px; }
+.mailbox-name { position:relative; width:160px; }
+.mailbox-date { position:relative; width:120px; }  
+.newMail { position:relative; width:80px; }
+
+/* Work order section */
+
+.tab-body-title {
+display: inline-block;
+    font-size: 18px;
+    line-height: 1;
+    margin: 5px 0 10px 0;
+} 
+
+
+/* Callout elements (over riding default setting) */
+
+.callout.callout-warning, .callout.callout-success, .callout.callout-danger { clear:both; position:relative; border-color: #f39c12 !important; background:#ffffff !important; color:#000000 !important; font-family:"open sans","Helvetica Neue",Helvetica,Arial,sans-serif !important; }
+.callout.callout-success { border-color: #00a65a !important; } 
+.callout.callout-danger { border-color: #dd4b39 !important; }
+.callout h4 { font-family:"open sans","Helvetica Neue",Helvetica,Arial,sans-serif; font-size:21px; font-weight:100; color:#444 !important; }
+
+/* Error Message */
+.errorMessagePad { position:relative; margin:10px 0px 20px 0px; display:block; color:#dd4b39 !important; font-size:16px; }
+.backBtnContainer { position:relative; margin-top:10px; float:none !important; }
+.callout a:link, .callout a:hover, .callout a:visited, .callout a:active, .callout a:focus { text-decoration:none;}
+
+
+/* Tick and Crosses */
+.tick, .available { position:relative; color:#00A65A; }
+.cross { position:relative; color:#DD4B39; }
+.allocated { position:relative; color:#F0AD4E; }
+.allocatedCustomer { position:relative; color:#5BC0DE; }
+
+.clickBoxAlign { position:relative; margin-top:50px; margin-bottom:25px; }
+
+/* Helper Files */
+.helpPic { position:relative; float:none; max-width:100%; height:auto; margin:0px 8px 8px 0px; display:inline-block !important; }
+
+/* Form Button */
+/* button { position:relative; color:#FFF; } */
+
+
+/* Dashboard */
+.btn-app {
+    background-color: #F4F4F4;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px 3px 3px 3px;
+    color: #666666;
+    font-size: 12px;
+    height: 82px;
+    margin: 0 0 10px 10px;
+    min-width: 100px;
+    padding: 26px 5px;
+    position: relative;
+    text-align: center;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Extra small devices (phones, less than 768px)																																				 */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+@media (min-width: 768px) { 
+	
+	.blockBtn { position:relative; margin-bottom:8px; display:block; }
+	.hideIcon { position:relative; display:none; }
+	
+	/* Error Message */
+	.backBtnContainer { position:relative; margin-top:10px;  float:none !important; }
+
+	 }
+
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Small devices (tablets, 768px and up)																																						 */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+@media (min-width: 768px) { 
+	
+	.blockBtn { position:relative; margin-bottom:8px; display:block; }
+	.hideIcon { position:relative; display:none; }
+	.modal-dialog { margin: 20px auto;  width: 600px; }
+	
+	/* Error Message */
+	.backBtnContainer { position:relative; margin-top:0px; float:right !important; }
+
+	}
+
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Medium devices (desktops, 992px and up)																																						 */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+@media (min-width: 992px) {
+	
+	.blockBtn { position:relative; margin-bottom:8px; display:block; }
+	.hideIcon { clear:inherit; display:none;  }
+	
+	/* Modal Box */
+	.modal-dialog { margin: 20px auto;  width: 792px; }
+	
+	/* Error Message */
+	.backBtnContainer { position:relative; margin-top:0px; float:right !important; }
+
+	/* Helper Files */
+	.helpPic { position:relative; float:left; max-width:100%; height:auto; margin:0px 8px 8px 0px; display:inline-block !important; }
+	 }
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Large devices (large desktops, 1200px and up)																																							 */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 1200px) { 
+
+	.main-sidebar, .left-side { padding-top: 55px; }
+	.blockBtn { position:relative; margin-bottom:8px; display:block; }
+	.hideIcon { clear:inherit; display:none;  }
+	
+	/* Modal Box */
+	.modal-dialog { margin: 30px auto;  width: 800px; }
+	
+	/* Error Message */
+	.backBtnContainer { position:relative; margin-top:0px; float:right !important; }
+	
+	/* Helper Files */
+	.helpPic { position:relative; float:left; max-width:100%; height:auto; margin:0px 8px 8px 0px; display:inline-block !important; }
+
+}
+ 
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* widescreen Large devices (large desktops, 1600px and up)																																				 */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+@media (min-width: 1600px) { 
+
+	.main-sidebar, .left-side { padding-top: 55px; }
+	.blockBtn { clear:inherit; display:inline; border:none; }
+	.hideIcon { clear:inherit; display:inline;  }
+	
+	/* Modal Box */
+	.modal-dialog { margin: 30px auto;  width: 1200px; }
+	
+	/* Error Message */
+	.backBtnContainer { position:relative; margin-top:0px; float:right !important; }
+	
+	/* Helper Files */
+	.helpPic { position:relative; float:left; max-width:100%; height:auto; margin:0px 8px 8px 0px; display:inline-block !important; }
+
+ }
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+

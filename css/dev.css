@@ -1,0 +1,168 @@
+/* Form Validation  styling */
+
+.error { border-color: #A94442; }
+
+.error::-webkit-input-placeholder {
+    /***set the colour for the placeholder within the input based upon form validation ***/
+    color:#A94442;
+}
+
+.error:-moz-placeholder { color:#A94442; } 
+
+.error::-moz-placeholder { color:#A94442; } 
+
+.error:-ms-input-placeholder{ color:#A94442; }
+
+input.datepicker { font-size:14px; width:80%;}
+
+span.checkbox_down { position:relative; top:30px;}
+
+div.loader { text-align:center; }
+
+/*Flash Message button*/
+
+a.flash-btn { position:relative; top:-6px;}
+
+/*You asked to change margin on model form, styling below;
+ * 
+ * 
+ */
+
+div.modal-body div.form-group { margin-bottom:0px !important;}
+
+input.score { max-width:40%;}
+
+/*
+ * Google maps ajax css
+ * 
+ * 
+ */
+
+div#loading { position:absolute; }
+
+/*
+ * 
+ * Disable clicks
+ */
+
+a.disabled {pointer-events: none;cursor: default;}
+
+/*
+ * Spec Section
+ * 
+ * 
+ */
+
+a#specSave {  position:relative; top:14px; right:20px;}
+
+/*
+ * QA Section
+ * 
+ * 
+ */
+
+a.confirm { margin-right:20px;}
+
+/*
+ * Job Section
+ * 
+ * 
+ */
+
+.staffPanel { margin-top:72px;}
+
+
+.padLeft {margin-left:20px;}
+
+
+.padRight {padding:20px;}
+
+/*
+ * Schedual Table style
+ * 
+ * 
+ * 
+ */
+
+td.td {position:static}
+
+ul.table-list {list-style:none;margin:0;padding:0;}
+
+/*
+ * Directory sprite css
+ */ 
+ 
+ ul.fileTree { margin:0; padding:0; }
+ 
+ ul.fileTree li { list-style:none; font-size: 16px; line-height:2; position:relative }
+ 
+ ul.fileTree li p { padding-left:45px; }
+ 
+ ul.fileTree li.border { border-bottom:1px solid #c0c0c0;  border-left:1px solid #c0c0c0; min-height:30px; left:17px; max-width:90%;}
+ 
+ ul.fileTree li ul.fileTree li { min-height:35px; left:25px;  }
+ 
+ ul.fileTree li span { position:relative; top:7px; padding-left:15px;}
+ 
+ ul.fileTree li.level2 span.file-icon, ul.fileTree li.level2 a.level1 { left:-35px; top:15px;}
+ 
+ ul.fileTree li ul { position:relative; top:10px; margin-bottom: 20px;}
+ 
+ ul.fileTree li ul li { font-size:13px; line-height:1.5; }
+ 
+ ul.fileTree li ul li span.inner { padding-left:5px; top:10px;}
+ 
+ ul.fileTree li ul li span.inner-marker { left:-35px; top:10px; color: #c0c0c0; }
+ 
+ ul.fileTree li ul li a, a.toggle_files { position:relative; top:5px;}
+ 
+.folder { background:url('/images/folder.jpg') left top no-repeat; }
+
+ ul.fileTree li ul.closed { display:none} 
+ 
+ ul.fileTree li ul li span.locked { position:relative; top:12px;}
+ 
+ ul.fileTree li ul li ul.dir_dropdown {left:-40px; top:25px; margin:bottom:10px; }
+ 
+ /*
+  * File Icons
+  * 
+  */
+ 
+ span.file-icon { padding:12px; background-repeat:no-repeat;}
+ 
+ /*
+  * Folder Delete
+  */ 
+  
+  div.confirm-delete { text-align: center; }
+  
+  /*
+   * Alerts
+   */ 
+ 
+ table.alerts { font-size:12px;}
+ 
+ /*
+  * Stores CSS
+  */ 
+  
+  ul#supplier_list { margin:0; padding:0;}
+  
+  ul#supplier_list li { list-style:none; line-height:2.5; font-size:12px;}
+  
+  div.product div.header, div.controls { text-align:center;}
+  
+  div.product div.header strong { position:relative; top:8px;}
+  
+  div.restockDate input.datepicker { margin-left:20px; }
+
+/*
+ * Work orders css
+ * 
+ * 
+ */
+
+div.p_o2 { margin-top:142px;}
+
+div.warning h2 {font-size:18px;}
